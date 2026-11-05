@@ -1,9 +1,10 @@
 package br.ufmg.dcc;
+import java.lang.Math;
 
 public class SimpleCalculator {
 
   public int addition(int x, int y) {
-    return x + y;
+    return Math.abs(x + y);
   }
 
   public int subtraction(int x, int y) {
